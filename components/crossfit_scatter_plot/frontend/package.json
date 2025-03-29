@@ -1,0 +1,44 @@
+{
+  "name": "crossfit_scatter_plot",
+  "version": "1.0.0",
+  "description": "An interactive component for visualizing crossfit data",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-plotly.js": "^2.5.1",
+    "streamlit-component-lib": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": ".",
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-plotly.js": "^2.5.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.2.0"
+  },
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Bill Jellesma",
+  "license": "ISC"
+}
